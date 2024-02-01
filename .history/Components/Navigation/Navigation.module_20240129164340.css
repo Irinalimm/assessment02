@@ -1,0 +1,33 @@
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 3rem;
+    min-height: var(--nav-height);
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: var(--nav-bg-color);
+    border: var(--border-width) solid var(--border-color);
+
+}
+
+.navMenuBox{
+    display: flex;
+    justify-content: space-around;
+    border: var(--border-width) solid var(--border-color);
+
+}
+
+.main-nav a.nav-home {
+    height: var(--nav-height);
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    background-color: var(--text-color);
+    font-weight: 800;
+    color: var(--bg-color);
+}
+

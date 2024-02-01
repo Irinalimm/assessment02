@@ -1,0 +1,51 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-6,
+.col-md-6,
+.col-sm-6 {
+    display: grid;
+    width: 100%;
+    min-height: 1px;
+    padding: 15px;
+    justify-items: center;
+    gap: 20px;
+    
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 40px 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.gridItem {
+    display:contents;
+    background-color: #eae2a7;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    
+
+}
+
+
+
+.inputField {
+    width: 100%;
+    /* Adjust the width as needed */
+    padding: 8px;
+    /* Adjust padding as needed */
+    border: 1px solid #fac3c3;
+    /* Adjust border styles as needed */
+    border-radius: 4px;
+    /* Adjust border radius as needed */
+    box-sizing: border-box;
+}

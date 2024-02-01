@@ -1,0 +1,14 @@
+:root {
+  --bg-black: #151C28;
+  --border-width: 0.5px;
+  --border-color: rgb(12, 23, 65);
+  --light-pink:rgb(251, 155, 190);
+  --nav-text-color:rgb(82, 80, 80);
+  --selector-box-color:rgba(240, 253, 0, 0.42);
+ 
+ 
+ 
+  --nav-height: 100px;
+  --nav-bg-color: rgb(1, 255, 175);
+
+}

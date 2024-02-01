@@ -1,0 +1,10 @@
+.outerContainer {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+
+}
+
+.nav_menu_box {
+    
+}

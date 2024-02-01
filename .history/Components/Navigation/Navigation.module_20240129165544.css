@@ -1,0 +1,53 @@
+.outerContainer{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--nav-bg-color);
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-bottom: 2px solid var(--blue);
+    text-align: center;
+    gap: 1em;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 3rem;
+    min-height: var(--nav-height);
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: var(--nav-bg-color);
+    border: var(--border-width) solid var(--border-color);
+
+}
+
+.navHome{
+    position: fixed;
+    margin: 1px;
+    z-index: 100;
+
+}
+
+.navMenuBox{
+    display: flex;
+    border: var(--border-width) solid var(--border-color);
+}
+
+.main-nav a.nav-home {
+    height: var(--nav-height);
+    display: grid;
+    place-content: center;
+    background-color: var(--text-color);
+    font-weight: 800;
+    color: var(--bg-color);
+}
+

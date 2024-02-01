@@ -1,0 +1,33 @@
+.itemTable {
+    margin-top: 150px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-lg-12,
+  .col-md-12,
+  .col-sm-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  /* Define additional styles as needed */
+  
+  .selected-icon {
+    border: 2px solid yellow;
+    /* Add more styles to indicate selection */
+  }
+  
+  .icon {
+    /* Define default styles for icons */
+  }
+  
+  /* Add more styles as needed */

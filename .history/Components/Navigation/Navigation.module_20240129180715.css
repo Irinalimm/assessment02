@@ -1,0 +1,37 @@
+.outerContainer{
+    display:flex;
+    width: 100%;
+    height:  var(--nav-height);
+    position: fixed;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: var(--nav-bg-color);
+    border-bottom: var(--border-width) solid var(--border-color);
+}
+
+.innerContainer > div{
+    display: flex;
+    align-items: center;
+    background-color: var(--light-pink);
+    padding:20px;
+}
+
+.navHome {
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-bg-color);
+    padding:20px;
+}
+
+
+
+

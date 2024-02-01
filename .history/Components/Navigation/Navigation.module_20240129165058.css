@@ -1,0 +1,38 @@
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 3rem;
+    min-height: var(--nav-height);
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: var(--nav-bg-color);
+    border: var(--border-width) solid var(--border-color);
+
+}
+
+.navHome{
+    position: fixed;
+    margin: 5px;
+    z-index: 100;
+
+}
+
+.navMenuBox{
+    display: flex;
+    border: var(--border-width) solid var(--border-color);
+}
+
+.main-nav a.nav-home {
+    height: var(--nav-height);
+    display: grid;
+    place-content: center;
+    background-color: var(--text-color);
+    font-weight: 800;
+    color: var(--bg-color);
+}
+

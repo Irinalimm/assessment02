@@ -1,0 +1,38 @@
+/* .outerContainer{
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height:  var(--nav-height);
+} */
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: var(--nav-bg-color);
+    border-bottom: var(--border-width) solid var(--border-color);
+
+}
+
+.navMenuBox{
+    display: flex;
+    justify-content: center;
+    height:  var(--nav-height);
+    background-color: var(--light-pink);
+    margin: 10px;
+    
+}
+
+.navHomeBox{
+    margin: 20px;
+
+}
+
+

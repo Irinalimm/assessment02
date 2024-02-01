@@ -1,0 +1,42 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-6,
+.col-md-6,
+.col-sm-6 {
+    display:grid;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-items: center; /* Center items horizontally */
+    align-items: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 10px;
+    width:100%;
+}
+
+.gridItem {
+    background-color: #eae2a7;
+    padding: 10px;
+    height:auto
+}
+
+
+
+.inputField {
+    width: 50%; /* Adjust the width as needed */
+    padding: 8px; /* Adjust padding as needed */
+    border: 1px solid #fac3c3; /* Adjust border styles as needed */
+    border-radius: 4px; /* Adjust border radius as needed */
+    box-sizing: border-box; 
+}

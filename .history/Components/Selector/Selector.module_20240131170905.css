@@ -1,0 +1,68 @@
+.row {
+  
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: grid;
+    width: 100%;
+    min-height: 1px;
+    padding: 15px;
+    justify-items: center;
+    gap: 20px;
+}
+
+
+    
+
+.selector_info{
+    display: grid;
+    width: 100%;
+    min-height: 1px;
+    padding: 15px;
+    justify-items: center;
+    gap: 20px;
+
+}
+
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 40px 20px;
+    width: 100%;
+    justify-content: center;
+    max-width: 1500px;
+}
+
+.gridItem {
+    display: flex;
+    align-items: center;
+    background-color: #eae2a7;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+
+
+.inputField {
+    width: 100%;
+    /* Adjust the width as needed */
+    padding: 8px;
+    /* Adjust padding as needed */
+    border: 1px solid #fac3c3;
+    /* Adjust border styles as needed */
+    border-radius: 4px;
+    /* Adjust border radius as needed */
+    box-sizing: border-box;
+}
+
+.selector_info{
+    background-color: #eae2a7;
+    width:fit-content;
+}
+
